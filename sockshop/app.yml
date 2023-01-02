@@ -1,0 +1,8 @@
+apiVersion: unict.it/v1alpha1
+kind: Application
+metadata:
+  name: sockshop-app
+spec:
+  name: sockshop
+  namespace: default
+  runInterval: 30
