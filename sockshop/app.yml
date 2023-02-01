@@ -5,4 +5,6 @@ metadata:
 spec:
   name: sockshop
   namespace: default
+  affinityControllerEnabled: true
+  resourceControllerEnabled: false
   runInterval: 30
