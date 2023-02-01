@@ -7,8 +7,6 @@ export const options = {
 };
 
 export default function () {
-  //http.get('http://172.18.0.3:30000/productpage');
-  http.get('http://172.18.0.5:30000/productpage');
-  //http.get('http://172.18.0.5:30000/productpage');
+  http.get('http://$NODE_IP:30000/productpage');
   sleep(1);
 }
