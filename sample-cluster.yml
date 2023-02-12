@@ -4,4 +4,6 @@ metadata:
   name: sample-cluster
 spec:
   nodeSelector: {}
-  runInterval: 30
+  resourceMonitorEnabled: true
+  networkCostMonitorEnabled: true
+  runPeriod: 30
