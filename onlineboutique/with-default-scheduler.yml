@@ -15,6 +15,7 @@ spec:
       labels:
         app-group: onlineboutique
         app: emailservice
+        index: "2"
     spec:
       serviceAccountName: default
       terminationGracePeriodSeconds: 5
@@ -92,6 +93,7 @@ spec:
       labels:
         app-group: onlineboutique
         app: checkoutservice
+        index: "1"
     spec:
       serviceAccountName: default
       securityContext:
@@ -182,6 +184,7 @@ spec:
       labels:
         app-group: onlineboutique
         app: recommendationservice
+        index: "1"
     spec:
       serviceAccountName: default
       terminationGracePeriodSeconds: 5
@@ -263,6 +266,7 @@ spec:
       labels:
         app-group: onlineboutique
         app: frontend
+        index: "0"
       annotations:
         sidecar.istio.io/rewriteAppHTTPProbers: "true"
     spec:
@@ -370,6 +374,7 @@ spec:
       labels:
         app-group: onlineboutique
         app: paymentservice
+        index: "2"
     spec:
       serviceAccountName: default
       terminationGracePeriodSeconds: 5
@@ -447,6 +452,7 @@ spec:
       labels:
         app-group: onlineboutique
         app: productcatalogservice
+        index: "2"
     spec:
       serviceAccountName: default
       terminationGracePeriodSeconds: 5
@@ -526,6 +532,7 @@ spec:
       labels:
         app-group: onlineboutique
         app: cartservice
+        index: "2"
     spec:
       serviceAccountName: default
       terminationGracePeriodSeconds: 5
@@ -663,6 +670,7 @@ spec:
       labels:
         app-group: onlineboutique
         app: currencyservice
+        index: "2"
     spec:
       serviceAccountName: default
       terminationGracePeriodSeconds: 5
@@ -741,6 +749,7 @@ spec:
       labels:
         app-group: onlineboutique
         app: shippingservice
+        index: "2"
     spec:
       serviceAccountName: default
       securityContext:
@@ -820,6 +829,7 @@ spec:
       labels:
         app-group: onlineboutique
         app: redis-cart
+        index: "3"
     spec:
       securityContext:
         fsGroup: 1000
@@ -894,6 +904,7 @@ spec:
       labels:
         app-group: onlineboutique
         app: adservice
+        index: "1"
     spec:
       serviceAccountName: default
       terminationGracePeriodSeconds: 5

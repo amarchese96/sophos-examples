@@ -15,6 +15,7 @@ spec:
       labels:
         app-group: bookinfo
         app: details
+        index: "1"
     spec:
       containers:
       - name: bookinfo-details
@@ -54,6 +55,7 @@ spec:
       labels:
         app-group: bookinfo
         app: mongodb
+        index: "3"
     spec:
       containers:
       - name: bookinfo-mongodb
@@ -94,6 +96,7 @@ spec:
       labels:
         app-group: bookinfo
         app: productpage
+        index: "0"
     spec:
       containers:
       - name: bookinfo-productpage
@@ -136,6 +139,7 @@ spec:
       labels:
         app-group: bookinfo
         app: reviews
+        index: "1"
     spec:
       containers:
       - name: bookinfo-reviews
@@ -178,6 +182,7 @@ spec:
       labels:
         app-group: bookinfo
         app: ratings
+        index: "2"
     spec:
       containers:
       - name: bookinfo-ratings
